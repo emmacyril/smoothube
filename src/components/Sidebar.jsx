@@ -1,4 +1,6 @@
 import React from "react";
+import Appstore from "../assets/images/appstore.png"
+import Googleplay from "../assets/images/googleplay.png"
 
 const Sidebar = () => {
   return (
@@ -358,12 +360,12 @@ const Sidebar = () => {
                 <div className="flex gap-5">
                   <img
                     className="inline-block w-fit rounded-lg"
-                    src="./src/assets/images/appstore.png"
+                    src={Appstore}
                     alt=""
                   />
                   <img
                     className="inline-block w-fit rounded-lg"
-                    src="./src/assets/images/googleplay.png"
+                    src={Googleplay}
                     alt=""
                   />
                 </div>
