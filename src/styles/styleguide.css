@@ -1,0 +1,78 @@
+/* Variables */
+
+:root {
+  --black: rgba(0, 0, 0, 1);
+  --astronaut: rgba(46, 50, 113, 1);
+  --primary-color: rgba(48, 60, 88, 1);
+  --secondary-color: rgba(124, 141, 181, 0.722);
+  --wild-blue-yonder: rgba(124, 141, 181, 0.749);
+  --offwhite: #cfd5e1;
+  --white-2: rgba(255, 255, 255, 0.8);
+  --white: rgba(255, 255, 255, 1);
+
+  --font-size-xs: 8px;
+  --font-size-s: 12px;
+  --font-size-m: 14px;
+  --font-size-l: 15px;
+  --font-size-xl: 16px;
+  --font-size-xxl: 20px;
+  --font-size-xxxl: 24px;
+
+  --font-family-manrope: "Manrope";
+  --font-family-poppins: "Poppins";
+  --font-family-sf_pro_display-bold: "SF Pro Display-Bold";
+  --font-family-sf_pro_display-regular: "SF Pro Display-Regular";
+  --font-family-sf_pro_display-semibold: "SF Pro Display-Semibold";
+}
+
+/* Classes */
+
+.sfprodisplay-regular-normal-astronaut-15px {
+  color: var(--astronaut);
+  font-family: var(--font-family-sf_pro_display-regular);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  font-style: normal;
+}
+.sfprodisplay-normal-astronaut-16px {
+  color: var(--astronaut);
+  font-family: var(--font-family-sf_pro_display-semibold);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  font-style: normal;
+}
+.sfprodisplay-bold-astronaut-20px {
+  color: var(--astronaut);
+  font-family: var(--font-family-sf_pro_display-bold);
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+  font-style: normal;
+}
+.sfprodisplay-regular-normal-wild-blue-yonder-14px {
+  color: var(--secondary-color);
+  font-family: var(--font-family-sf_pro_display-regular);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+.sfprodisplay-regular-normal-wild-blue-yonder-15px {
+  color: var(--secondary-color);
+  font-family: var(--font-family-sf_pro_display-regular);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  font-style: normal;
+}
+.sfprodisplay-normal-pickled-bluewood-12px {
+  color: var(--primary-color);
+  font-family: var(--font-family-sf_pro_display-semibold);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  font-style: normal;
+}
+.manrope-semi-bold-astronaut-16px {
+  color: var(--astronaut);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-style: normal;
+}
