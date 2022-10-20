@@ -3,13 +3,14 @@ import CommentIcon from "./icons/CommentIcon";
 import FavoriteIcon from "./icons/FavoriteIcon";
 import PlayButton2 from "./icons/PlayButton2";
 import PlayCount from "./icons/PlayCount";
+import Cover from "../assets/images/album-cover-6.png";
 
 const ListenHistoryCard = () => {
   return (
     <a className="card">
       <div className="flex bg-white w-full lg:w-[80%] mt-6 h-12 lg:h-20 m-auto justify-between items-center rounded-[40px] shadow-md">
         <img
-          src="../assets/images/album-cover-6.png"
+          src={Cover}
           className="h-[42px] w-[42px] lg:h-[84px] lg:w-[84px] rounded-[20px] historycardimg"
         />
         <div className="flex flex-col w-9/12 lg:w-2/4">

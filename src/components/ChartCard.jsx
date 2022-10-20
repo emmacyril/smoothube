@@ -1,5 +1,6 @@
 import React from "react";
 import PlayButton from "./icons/PlayButton";
+import Cover from "../assets/images/album-cover-6.png";
 
 const ChartCard = () => {
   return (
@@ -9,7 +10,7 @@ const ChartCard = () => {
         <div className="cardimgovalay"></div>
         <img
           className="album-cover"
-          src="../assets/images/album-cover-6.png"
+          src={Cover}
           alt="Album Cover"
         />
         <PlayButton />

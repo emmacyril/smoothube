@@ -14,6 +14,7 @@ import PlayerLength from "../components/icons/PlayerLength";
 import PlayerNextBtn from "../components/icons/PlayerNextBtn";
 import PlayerPlayButton from "../components/icons/PlayerPlayButton";
 import PlayPreviousArrow from "../components/icons/PlayPreviousArrow";
+import Cover from "../assets/images/album-cover-6.png";
 
 const Discover = () => {
   return (
@@ -63,7 +64,7 @@ const Discover = () => {
             <div className="relative flex justify-center items-center ">
               <img
                 className=""
-                src="../assets/images/album-cover-6.png"
+                src={Cover}
                 alt="Album Cover"
               />
             </div>
