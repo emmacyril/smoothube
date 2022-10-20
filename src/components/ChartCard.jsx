@@ -9,7 +9,7 @@ const ChartCard = () => {
         <div className="cardimgovalay"></div>
         <img
           className="album-cover"
-          src="./src/assets/images/album-cover-6.png"
+          src="../assets/images/album-cover-6.png"
           alt="Album Cover"
         />
         <PlayButton />

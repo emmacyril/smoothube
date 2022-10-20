@@ -63,7 +63,7 @@ const Discover = () => {
             <div className="relative flex justify-center items-center ">
               <img
                 className=""
-                src="./src/assets/images/album-cover-6.png"
+                src="../assets/images/album-cover-6.png"
                 alt="Album Cover"
               />
             </div>

@@ -9,7 +9,7 @@ const ListenHistoryCard = () => {
     <a className="card">
       <div className="flex bg-white w-full lg:w-[80%] mt-6 h-12 lg:h-20 m-auto justify-between items-center rounded-[40px] shadow-md">
         <img
-          src="./src/assets/images/album-cover-6.png"
+          src="../assets/images/album-cover-6.png"
           className="h-[42px] w-[42px] lg:h-[84px] lg:w-[84px] rounded-[20px] historycardimg"
         />
         <div className="flex flex-col w-9/12 lg:w-2/4">
